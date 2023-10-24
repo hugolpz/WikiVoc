@@ -50,7 +50,9 @@ On non monthly-suscribing accounts, you can still fund a budget for paid API req
 3. Copy Secret key, then `echo 'OPENAI_API_KEY="paste your API key here"' > .env`, so the .env has your API key.
 
 ```diff
-! DISCLAIMER: API Key will be valid about 2 hours. API-generated image URL are valid for 1 hour. As of 2023/10, [OpenAI pricing](https://openai.com/pricing) was about $0,02/image on Dall-2.
+! DISCLAIMER: API Key will be valid about 2 hours.
+! API-generated image URL are valid for 1 hour. 
+! As of 2023/10, [OpenAI pricing](https://openai.com/pricing) was about $0,02/image on Dall-2.
 ```
 
 ## Todo
