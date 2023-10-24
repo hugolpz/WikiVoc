@@ -1,0 +1,26 @@
+{
+  "name": "wikivoc",
+  "version": "1.0.0",
+  "description": "script related to wikivoc",
+  "main": "wikivoc.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vocabulary",
+    "illustration",
+    "education",
+    "languages"
+  ],
+  "author": "hugo pierre lopez",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.12.4",
+    "request": "^2.88.2"
+  }
+}
