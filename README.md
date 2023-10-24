@@ -59,7 +59,7 @@ On non monthly-suscribing accounts, you can still fund a budget for paid API req
 ## See also
 - [Wikimedia Commons:WikiVoc](https://commons.wikimedia.org/wiki/Commons:WikiVoc) — larger project on Wikimedia
 - [Commons:Pattypan](https://commons.wikimedia.org/wiki/Commons:Pattypan) — Wikimedia mass images upload tool.
-- 
+
 ## Todo
 - [x] Readme.md
 - [x] Create a github repository
