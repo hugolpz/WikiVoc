@@ -19,11 +19,17 @@ Each of these flashcards have been generated from prompts, then hand selected fr
 | <img src='doc/WikiVoc—otter.jpg' style='width:120px;'/><br><center>otter</center> | <img src='doc/WikiVoc—schoolgirls.jpg' style='width:120px;'/><br><center>schoolgirls</center> | <img src='doc/WikiVoc—squeleton.jpg' style='width:120px;'/><br><center>squeleton</center> | <img src='doc/WikiVoc—tree.jpg' style='width:120px;'/><br><center>tree</center> 
 | <img src='doc/WikiVoc—toilet.jpg' style='width:120px;'/><br><center>toilet</center>
 
-## Typical prompt
-Our prompt template reads :
+## Prompt
+Our typical prompt template reads :
 ```
-Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot, isometric.
+Object: one cute otter floating on its back in water with an orange in its pawn.
+Style: super deformed manga, flat design. Background: pure white background. View: wide shot, isometric.
 ```
+
+## Words and descriptions
+> _See [words.js](./words.js)_
+ 
+_TBC._
 
 ## Web user interface
 You can generate images by hand, with no developement skills.
@@ -36,7 +42,6 @@ You can generate images by hand, with no developement skills.
 |----|----|----|
 | <img src='doc/BingQuery1.png' style='width:300px;'/><br><center></center> | <img src='doc/BingQuery2.png' style='width:300px;'/><br><center></center> | <img src='doc/WikiVoc—otter.jpg' style='width:300px;'/><br><center></center>
 
-
 ## APIs
 The core work is mostly on dictionary and prompt creation. We then rely on **paid APIs** to scale up work and state of the art image generations and vectorization. At the moment, we use :
 - [Dall-e 3/api](https://platform.openai.com/docs/api-reference/images)
@@ -45,6 +50,8 @@ The core work is mostly on dictionary and prompt creation. We then rely on **pai
 Alternative solutions exist which are open, cheaper, but also lower quality solutions. At the moment, we therefore decided to go for those paid APIs.
 
 ### OpenAI API
+> _See [generate.js](./generate.js)_
+
 On non monthly-suscribing accounts, you can still fund a budget for paid API requests :
 1. Open [OpenAI billing page](https://platform.openai.com/account/billing/overview) : add 5$ to your account.
 2. Open [OpenAI API keys](https://platform.openai.com/account/api-keys) : generate a key. 
@@ -55,6 +62,9 @@ On non monthly-suscribing accounts, you can still fund a budget for paid API req
 ! API-generated image URL are valid for 1 hour. 
 ! As of 2023/10, [OpenAI pricing](https://openai.com/pricing) was about $0,02/image on Dall-2.
 ```
+
+### Vectorizer.ia API
+> _See [vectorize.js](./vectorize.js)_
 
 ## See also
 - [Wikimedia Commons:WikiVoc](https://commons.wikimedia.org/wiki/Commons:WikiVoc) — larger project on Wikimedia
