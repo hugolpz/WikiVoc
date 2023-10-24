@@ -26,7 +26,7 @@ Object: one cute otter floating on its back in water with an orange in its pawn.
 
 ## Web user interface
 You can generate images by hand, with no developement skills.
-1. Open [Bing.com/images/create/](https://www.bing.com/images/create/object3a-one-cute-otter-floating-on-its-back-in-wat/653783e9b3f64c95aaf6ea027643746f?FORM=GENCRE) > create an account.
+1. Open [Bing.com/images/create/](https://www.bing.com/images/create/object3a-one-cute-otter-floating-on-its-back-in-wat/653787e871844f44b86cd1496706bc62?FORM=GENCRE) > create an account.
 2. Enter prompt :<br>`Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot, isometric. ` > click "Create"
 3. Click on prefered image, save locally as `WikiVoc—otter.jpg`
 4. Change prompt's object statement as needed.
