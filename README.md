@@ -18,15 +18,16 @@ Each of these flashcards have been generated from prompts, then hand selected fr
 | <img src='doc/WikiVoc—boy.jpg' style='width:120px;'/><br><center>boy</center> | <img src='doc/WikiVoc—bucket.jpg' style='width:120px;'/><br><center>bucket</center> | <img src='doc/WikiVoc—handbag.jpg' style='width:120px;'/><br><center>handbag</center> | <img src='doc/WikiVoc—basket.jpg' style='width:120px;'/><br><center>basket</center> 
 | <img src='doc/WikiVoc—ribbon.jpg' style='width:120px;'/><br><center>ribbon</center> | <img src='doc/WikiVoc—schoolgirls.jpg' style='width:120px;'/><br><center>schoolgirls</center> | <img src='doc/WikiVoc—squeleton.jpg' style='width:120px;'/><br><center>squeleton</center> | <img src='doc/WikiVoc—tree.jpg' style='width:120px;'/><br><center>tree</center> | <img src='doc/WikiVoc—toilet.jpg' style='width:120px;'/><br><center>toilet</center>
 
+## Typical prompt
 Our prompt template reads :
 ```
-Object: one cute otter floating in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot. 
+Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot, isometric.
 ```
 
 ## Web user interface
 You can generate images by hand, with no developement skills.
 1. Open [Bing.com/images/create/](https://www.bing.com/images/create/object3a-one-cute-otter-floating-on-its-back-in-wat/653783e9b3f64c95aaf6ea027643746f?FORM=GENCRE) > create an account.
-2. Enter prompt :<br>`Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot. ` > click "Create"
+2. Enter prompt :<br>`Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot, isometric. ` > click "Create"
 3. Click on prefered image, save locally as `WikiVoc—otter.jpg`
 4. Change prompt's object statement as needed.
 
