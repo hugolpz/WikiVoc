@@ -1,3 +1,7 @@
+```diff
+! DISCLAIMER: PROJECT UNDER DEVELOPMENT, CONTENT MAY CHANGE RAPIDLY (2023/10).
+```
+
 **WikiVoc.js** is a toolbox to assist the creation of illustrated language learning flashcard. Centered on English language as its corner stone, we built dedicated modules to handle the word-prompt dictionary, generate images, vectorize images, and pivot to non-English languages.
 
 ## Modules
