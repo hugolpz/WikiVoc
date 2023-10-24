@@ -23,28 +23,28 @@ Our prompt template reads :
 Object: one cute otter floating in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot. 
 ```
 
-## Humand and web interface
+## Web user interface
 You can generate images by hand, with no developement skills.
 1. Open [Bing.com/images/create/](https://www.bing.com/images/create/object3a-one-cute-otter-floating-on-its-back-in-wat/653783e9b3f64c95aaf6ea027643746f?FORM=GENCRE) > create an account.
 2. Enter prompt :<br>`Object: one cute otter floating on its back in water with an orange in its pawn. Style: super deformed manga, flat design. Background: pure white background. View: wide shot. ` > click "Create"
 3. Click on prefered image, save locally as `WikiVoc—otter.jpg`
 4. Change prompt's object statement as needed.
 
-| | | |
+| Bing Image Generator with standardized prompt | Bing Image Results (4) | Selected "otter" illustration |
 |----|----|----|
-| <img src='doc/BingQuery1.png' style='width:300px;'/><br><center>Bing Image Generator</center> | <img src='doc/BingQuery2.png' style='width:300px;'/><br><center>Bing Image Results (4)</center> | <img src='doc/WikiVoc—otter.jpg' style='width:300px;'/><br><center>Selected "otter" illustration</center>
+| <img src='doc/BingQuery1.png' style='width:300px;'/><br><center></center> | <img src='doc/BingQuery2.png' style='width:300px;'/><br><center></center> | <img src='doc/WikiVoc—otter.jpg' style='width:300px;'/><br><center></center>
 
 
-## Automation via APIs
-The core work is mostly on dictionary and prompt creation. We then rely on **paid APIs** for state of of the art generations and vectorization. At the moment, we use :
+## APIs
+The core work is mostly on dictionary and prompt creation. We then rely on **paid APIs** to scale up work and state of the art image generations and vectorization. At the moment, we use :
 - [Dall-e 3/api](https://platform.openai.com/docs/api-reference/images)
 - [Vectorizer.ai/api](https://vectorizer.ai/api)
 
 Alternative solutions exist which are open, cheaper, but also lower quality solutions. At the moment, we therefore decided to go for those paid APIs.
 
-
 ## Todo
+- [x] Readme.md
+- [x] Create a github repository
+- [x] Create a proper git ignore
 - [ ] Externalize API keys
-- [ ] Create a github repository
-- [ ] Create a proper git ignore
 - [ ] Migrate words out of `generate.js`
