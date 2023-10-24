@@ -43,6 +43,16 @@ The core work is mostly on dictionary and prompt creation. We then rely on **pai
 
 Alternative solutions exist which are open, cheaper, but also lower quality solutions. At the moment, we therefore decided to go for those paid APIs.
 
+### OpenAI API
+On non monthly-suscribing accounts, you can still fund a budget for paid API requests :
+1. Open [OpenAI billing page](https://platform.openai.com/account/billing/overview) : add 5$ to your account.
+2. Open [OpenAI API keys](https://platform.openai.com/account/api-keys) : generate a key. 
+3. Copy Secret key, then `echo 'OPENAI_API_KEY="paste your API key here"' > .env`, so the .env has your API key.
+
+```diff
+! DISCLAIMER: API Key will be valid about 2 hours. API-generated image URL are valid for 1 hour. As of 2023/10, [OpenAI pricing](https://openai.com/pricing) was about $0,02/image on Dall-2.
+```
+
 ## Todo
 - [x] Readme.md
 - [x] Create a github repository
