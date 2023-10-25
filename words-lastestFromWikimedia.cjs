@@ -1,4 +1,5 @@
 // USAGE
+// import fetch from 'node-fetch';
 // import words from './wordsFromWiki.cjs';
 // console.log('4:', await words);
 
