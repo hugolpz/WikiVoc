@@ -7,4 +7,4 @@ dist/*
 assets/
 doc/*.pdf
 output/*.*
-output/*/*.*
+output/**/*.*
