@@ -17,7 +17,7 @@ import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
 // Words list with image generation description 
-import words from './words.cjs'; 
+import words from './words.cjs';
 
 console.log(words);
 console.log(process.env.OPENAI_API_KEY); // remove this after you've confirmed it is working
