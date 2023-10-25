@@ -79,4 +79,4 @@ On non monthly-suscribing accounts, you can still fund a budget for paid API req
 - [x] Create a github repository
 - [x] Create a proper git ignore
 - [x] Externalize API keys
-- [ ] Migrate words out of `generate.js`
+- [x] Migrate words out of `generate.js`
