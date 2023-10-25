@@ -10,16 +10,17 @@
 
 /* ***************************************************** */
 /* SETTINGS ******************************************** */
-//var OpenAI = require("openai")
+// Modules
 import OpenAI from "openai";
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
-import words from './words.js'; 
+// Words list with image generation description 
+import words from './words.cjs'; 
 
-console.log(process.env.OPENAI_API_KEY) // remove this after you've confirmed it is working
-
+console.log(words);
+console.log(process.env.OPENAI_API_KEY); // remove this after you've confirmed it is working
 
 const openai = new OpenAI({
   // https://platform.openai.com/account/api-keys
@@ -79,11 +80,7 @@ async function imageGenerate(word,prompt) {
 /* ***************************************************** */
 /* WORDS ********************************************* */
 /* Words 2 descriptions ******************************** */
-var objectsDescriptions = {
-  "wasp":    { description: "One wasp eating a berry" },
-  "soldier": { description: "One cute soldier" },
-  "glass":   { description: "One blue glass of water with ice" },
-};
+var objectsDescriptions = words; // from import above
 
 /* ***************************************************** */
 /* PROMPTS ********************************************* */
@@ -147,5 +144,5 @@ var promptsArr = wordsToPrompts(wordsArr);
 console.log(promptsArr)
 for(var i=0;i<promptsArr.length;i++){
   console.log(promptsArr[i])
-  var imagesUrlArr = imageGenerate(wordsArr[i],promptsArr[i]);
+  // var imagesUrlArr = imageGenerate(wordsArr[i],promptsArr[i]);
 };
