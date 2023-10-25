@@ -16,6 +16,7 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 import 'dotenv/config';
+import words from './words.js'; 
 
 console.log(process.env.OPENAI_API_KEY) // remove this after you've confirmed it is working
 
