@@ -31,7 +31,7 @@ Style: super deformed manga, flat design. Background: pure white background. Vie
 ```
 
 ## Words and descriptions
-> _See [words.js](./words.js)_
+> _See [words.cjs](./words.cjs)_
  
 _TBC._
 
